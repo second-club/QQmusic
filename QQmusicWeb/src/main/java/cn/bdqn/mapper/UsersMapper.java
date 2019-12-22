@@ -3,9 +3,10 @@ package cn.bdqn.mapper;
 import cn.bdqn.domain.Users;
 
 public interface UsersMapper {
+
     int deleteByPrimaryKey(Integer uId);
 
-    int insert(Users record);
+    void insert(Users record);
 
     int insertSelective(Users record);
 
